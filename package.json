@@ -1,0 +1,19 @@
+{
+  "name": "episode-82",
+  "version": "0.0.0",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230404.0",
+    "typescript": "^5.0.4",
+    "wrangler": "2.4.4"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler publish"
+  },
+  "dependencies": {
+    "garph": "^0.4.3",
+    "graphql": "16.6.0",
+    "graphql-yoga": "3.9.0"
+  }
+}
